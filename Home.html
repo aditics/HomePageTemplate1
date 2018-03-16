@@ -4,19 +4,211 @@
 	<title>Futur3s.com</title>
 
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, inital-scale=1, shrimk-to-fit=no">
+	<meta name="viewport" content="width=device-width, inital-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
 	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="scripts/styles.css">
 </head>
 <body>
-	<h1>This is the first home page template.</h1>
-	<p>Home page content</p>
-	<p>Page content continued...</p>
 
+	<nav class="navbar navbar-inverse navbar-toggleable-sm navbar-expand-lg bg-primary fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#"></a>
+
+			<button class="navbar-toggler collapsed collapse-icon" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+
+	  		<div class="collapse navbar-collapse navbar-left" id="Navbar">
+	    		<ul class="navbar-nav mr-auto">
+	      			<li class="nav-item active"><a class="nav-link" href="#"><span class="fas fa-football-ball"></span> Football</a></li>
+				    <li class="nav-item"><a class="nav-link" href="#"><span class="fas fa-baseball-ball"></span> Baseball</a></li>
+				    <li class="nav-item"><a class="nav-link" href="#"><span class="fas fa-basketball-ball"></span> Basketball</a></li>
+				    <li class="nav-item"><a class="nav-link" href="#"><span class="fas fa-hockey-puck"></span> Hockey</a></li>
+	    		</ul>
+	    		<form class="form-inline my-2 my-lg-0 align-self-center">
+	      			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	    		</form>
+
+	    		<ul class="nav navbar-nav navbar-right">
+				    <li class="nav-item"><a class="nav-link" href="#"><span class="fas fa-sign-out-alt"></span> Login</a></li>
+				    <li class="nav-item"><a class="nav-link" href="#"><span class="fas fa-user-plus"></span> Join</a></li>
+			    </ul>
+	  		</div>
+		</div>
+	</nav>
+
+	<header class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 box">
+                    <img src="images/Final-resized.png" class="img-fluid header-image align-self-center">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 align-items-center">
+            	<h5 class="text-center">NEWS</h5>
+            	<div class="card home-content">            		
+            		<div class="card-body">
+            			
+	                    <div class="media">
+		                    <img src="images/home/image2.jpg" class="d-flex mr-3 img-thumbnail align-self-top" alt="">
+
+		                    <div class="media-body">
+		                        <a href="#" class="mt-0">KRAVITZ: Disappointment no more; Purdue is poised for a long ...</a>
+		                        <p>“We still have to take care of the basketball, still have to execute,...</p>
+		                    </div>
+                    	</div>
+
+                    	<div class="media">
+		                    <div class="media-body">
+		                        <a href="#" class="mt-0">Al Alburquerque hopes more pitch variety ...</a>
+		                        <p>“More than a decade later, Donaldson is one of the best...</p>
+		                    </div>
+		                </div>
+
+		                <div class="media">
+		                    <div class="media-body">
+		                        <a href="#" class="mt-0">Four-star forward D.J. Jeffries commits...</a>
+		                        <p>“D.J. Jeffries, a four-star small forward from Olive Branch...</p>
+		                    </div>
+		                </div>
+
+	                </div>
+            	</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 align-items-center">
+                <h5 class="text-center">HIGHLIGHTS</h5>
+                <div class="card home-content">
+                	<div class="card-body">
+                		<div class="media"> 
+		                    <div align="center" class="embed-responsive embed-responsive-16by9">
+		                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3Mb-7RZHZAk?autoplay=0&controls=0&loop=1&playlist=3Mb-7RZHZAk&amp;showinfo=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="vertical-align: center;"></iframe>
+		                    </div>
+                		</div>
+                		<br/>
+                		<span>
+                			Video Description : Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum.
+                		</span>
+                	</div>
+                </div>
+                
+            </div>
+
+            <div class="col-12 col-sm col-md-4 align-items-center">
+            	<h5 class="text-center">FEATURED ATHLETES</h5>
+	            <div id="featured-carousel" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#featured-carousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#featured-carousel" data-slide-to="1"></li>
+				    <li data-target="#featured-carousel" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active align-items-center">
+				      <img class="d-block w-100" src="images/home/contact_icon.png">
+					  <div class="carousel-caption">
+					    <h5>Name</h5>
+					    <p>Caption</p>
+					  </div>
+				    </div>
+				    <div class="carousel-item align-items-center">
+					  <img class="d-block w-100" src="images/home/contact_icon.png">
+					  <div class="carousel-caption">
+					    <h5>Name</h5>
+					    <p>Caption</p>
+					  </div>
+					</div>
+				    <div class="carousel-item align-items-center">
+					  <img class="d-block w-100" src="images/home/contact_icon.png">
+					  <div class="carousel-caption">
+					    <h5>Name</h5>
+					    <p>Caption</p>
+					  </div>
+					</div>
+				  </div>
+				  <a class="carousel-control-prev" href="#featured-carousel" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#featured-carousel" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+				<div class="text-center featured-button"><button class="btn btn-outline-dark">View More</button></div>
+			</div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row" style="border-bottom: 1px ridge #252a2d;">
+            	<div class="col-12 col-sm-4 col-md-3">
+                    <img src="images/futures-icon.png" class="footer-logo" />
+                    <br/>
+                    <span class="copyright-font">© 2018 Futur3s. All Rights Reserved.</span>
+                </div>             
+                <div class="col-12 col-sm-4 col-md-2 align-items-left">
+                    <ul class="list-unstyled">
+                    	<li><h6>FUTUR3S</h6></li>
+                        <li><a href="#">Military Discount</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                        <li><a href="#">Become a Member</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-md-2 align-items-left">
+                    <ul class="list-unstyled">
+                    	<li><h6>MERCHANDISE</h6></li>
+                        <li><a href="#">Shipping & Delivery</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Order Status</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-md-2">
+                    <ul class="list-unstyled">
+                    	<li><h6>COMPANY</h6></li>
+                    	<li><a href="#">About</a></li>
+                    	<li><a href="#">In the News</a></li>
+                    	<li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-md-2">
+                    <ul class="list-unstyled">
+                    	<li><h6>SUPPORT</h6></li>
+                    	<li><a href="#">Help</a></li>
+                    	<li><a href="#">FAQs</a></li>
+                    	<li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+           </div>
+           <div>
+                	<ul class="list-unstyled" id="#menu-ul">
+                    	<h6>CONNECT</h6>
+                    	<li class="menu"><a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/investfutur3s/?hl=en"><i class="fab fa-instagram fa-lg"></i></a></li>
+                    	<li class="menu"><a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fab fa-google-plus fa-lg"></i></a></li>
+                    	<li class="menu"><a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/FUTUR3S/"><i class="fab fa-facebook fa-lg"></i></a></li>
+                    	<li class="menu"><a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                    	<li class="menu"><a class="btn btn-social-icon btn-twitter" href="https://twitter.com/investFUTUR3S"><i class="fab fa-twitter fa-lg"></i></a></li>
+                    	<li class="menu"><a class="btn btn-social-icon btn-youtube" href="http://www.linkedin.com/in/"><i class="fab fa-youtube fa-lg"></i></a></li>
+                    	<li class="menu"><a class="btn btn-social-icon" href="mailto:"><i class="far fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+        </div>
+    </footer>
 
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="node_modules/tether/dist/js/tether.min.js"></script>
-	<script type="text/javascript" src="node_module/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

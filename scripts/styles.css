@@ -1,0 +1,105 @@
+.header-image{
+	align-content: center;
+	overflow: hidden;
+	margin: 0px auto;
+	border: none;
+    display: block;
+}
+
+.home-content{
+	min-height: 400px;
+	vertical-align: top;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+.jumbotron{
+  height: 200px;
+  padding: 70px 30px 70px 30px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.footer{
+	background-color: black;
+	color: #88939b;
+	margin: 20px auto;
+	padding: 20px 0px 5px 0px;
+}
+
+.list-unstyled a{
+	color: #88939b;
+	font-size: 12px;
+}
+
+body{
+    padding:40px 0px 0px 0px;
+    z-index:0;
+}
+
+.collapse-icon{
+	margin: 2px 2px;
+	padding: 2px 2px;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+}
+
+.footer-logo{
+	width: 175px;
+	height: 75px;
+	margin-top: 0px;
+	left: 0;
+	top: 0;
+}
+
+.copyright-font{
+	margin-bottom: 10px;
+	left: 0;
+	bottom: 0;
+	font-family: arial;
+	font-size: 11px;
+}
+
+.box {
+    align-content: center;
+}
+
+.list-unstyled{
+	list-style: none;
+	padding-top: 10px;
+}
+
+.menu{
+	display: inline;
+}
+
+.card{
+	overflow: hidden;
+}
+
+.card-body{
+	word-wrap: break-word;
+}
+
+.btn-social-icon{
+	padding-left: 0px;
+}
+
+.carousel-item {
+	padding: 5px 5px 5px 5px;
+}
+
+.carousel-caption {
+	color: black;
+	bottom: -30px;
+}
+
+.featured-button{
+	margin-top:20px;
+}
